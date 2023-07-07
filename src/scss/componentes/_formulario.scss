@@ -1,0 +1,41 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.formulario {
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.campo {
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: center;
+    min-width: 0;
+    label {
+        flex: 0 0 30%; 
+        max-width: 10rem;
+    }
+    input {
+        flex: 1;
+        border: none;
+        padding: calc(v.$separacion / 4);
+        border-radius: 1rem;
+
+        &:disabled {
+            background-color: darken(v.$blanco, 65%);
+            color: v.$blanco;
+            cursor: not-allowed;  
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .campo {
+        flex-wrap: wrap; 
+        
+        label {
+            flex: 0 0 100%; /* Make the label full width when wrapping */
+            margin-bottom: 0.5rem; 
+        }
+    }
+}
