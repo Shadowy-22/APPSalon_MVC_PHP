@@ -4,7 +4,7 @@ This a full-stack project made with the MVC Architecture Pattern, PHP, SCSS and 
 Both sides of the App are protected and restricted the access depending of the permissions assigned via the Database Administrator.
 
 
-### Client Side - Creating a New Appointment
+## Client Side - Creating a New Appointment
 
 Therefore, the APP has a Sign-up and Login system with their respective form validations for the new users:  
 
@@ -30,7 +30,7 @@ Once they're registered and confirmed, they can create a new appointments for th
 
 </br>
 
-### Admin Side
+## Admin Side
 
 That's for the client-side part of the app, now for the Administrator side, they have a complete CRUD to manage the existing and new services and to check the upcoming or previous appointments:
 
