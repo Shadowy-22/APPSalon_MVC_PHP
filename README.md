@@ -1,13 +1,10 @@
-# APPSalon_MVC_PHP
-Deployment of the Project APPSalon
-
 # Summary
 
 This a full-stack project made with the MVC Architecture Pattern, PHP, SCSS and Active Record. Its purpose was to create an App with an easy and intuitive management of appointments with a complete CRUD system for a Beauty Salon Administrator and for the clients, who can assign themselves (within the limits stablished) new appointments if they are registered and confirmed via E-mail and Token. 
 Both sides of the App are protected and restricted the access depending of the permissions assigned via the Database Administrator.
 
 
-## Client Side - Creating a New Appointment
+### Client Side - Creating a New Appointment
 
 Therefore, the APP has a Sign-up and Login system with their respective form validations for the new users:  
 
@@ -21,7 +18,7 @@ Once they're registered and confirmed, they can create a new appointments for th
 
 ![image](https://github.com/Shadowy-22/APPSalon_MVC_PHP/assets/119075581/bd2f0ab9-4b3b-4f23-979d-34f309a0c446)
 
-2- Secondly, they can select the hour and day of the appointment:
+2- Second, they can select the hour and day of the appointment:
 
 ![image](https://github.com/Shadowy-22/APPSalon_MVC_PHP/assets/119075581/c2565d2a-8f89-4794-b99d-4c1c2decead0)
 
@@ -31,9 +28,9 @@ Once they're registered and confirmed, they can create a new appointments for th
 
 ![image](https://github.com/Shadowy-22/APPSalon_MVC_PHP/assets/119075581/eb96e516-7b42-414f-8e0b-677e97feab5e)
 
+</br>
 
-
-## Admin Side
+### Admin Side
 
 That's for the client-side part of the app, now for the Administrator side, they have a complete CRUD to manage the existing and new services and to check the upcoming or previous appointments:
 
